@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cf2d9b4-22f9-4812-9b8b-3afbce94f80e" name="变更" comment="init Module" />
+    <list default="true" id="2cf2d9b4-22f9-4812-9b8b-3afbce94f80e" name="变更" comment="init Module">
+      <change beforePath="$PROJECT_DIR$/movie_web_manager/src/main/java/xyz/ccola/controller/Test.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,33 +42,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.obroom.plugin.mybatislog.indexNum&quot;: &quot;32&quot;,
-    &quot;com.obroom.plugin.mybatislog.running&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/2022_snowHosbility/study/heima/2022_Project/GraduationProject/HeiMaMovie/RootModule/movie_web_manager/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;24019d29625b53d87d058ae11341a35f&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.obroom.plugin.mybatislog.indexNum": "32",
+    "com.obroom.plugin.mybatislog.running": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/2022_snowHosbility/study/heima/2022_Project/GraduationProject/HeiMaMovie/RootModule/movie_web_manager/src/main/resources",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "spring.configuration.checksum": "24019d29625b53d87d058ae11341a35f",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\2022_snowHosbility\study\heima\2022_Project\GraduationProject\HeiMaMovie\RootModule\movie_web_manager\src\main\resources" />
@@ -102,7 +104,7 @@
       <updated>1671177876437</updated>
       <workItem from="1671177878382" duration="6664000" />
       <workItem from="1671184624218" duration="73000" />
-      <workItem from="1671184733138" duration="1118000" />
+      <workItem from="1671184733138" duration="1235000" />
     </task>
     <task id="LOCAL-00001" summary="init Module">
       <created>1671184962478</created>
