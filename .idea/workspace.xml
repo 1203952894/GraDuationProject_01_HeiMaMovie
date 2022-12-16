@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cf2d9b4-22f9-4812-9b8b-3afbce94f80e" name="变更" comment="init Module">
-      <change beforePath="$PROJECT_DIR$/movie_web_manager/src/main/java/xyz/ccola/controller/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,7 @@
       <updated>1671177876437</updated>
       <workItem from="1671177878382" duration="6664000" />
       <workItem from="1671184624218" duration="73000" />
-      <workItem from="1671184733138" duration="1235000" />
+      <workItem from="1671184733138" duration="2000000" />
     </task>
     <task id="LOCAL-00001" summary="init Module">
       <created>1671184962478</created>
@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671185805342</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init Module">
+      <created>1671186856436</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671186856436</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
