@@ -1,0 +1,33 @@
+# 配置服务端口
+server:
+  port: 8080
+# 数据源配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/heima_movie?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 2000MB
+      max-request-size: 2000MB
+# Mybatis 配置
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 开启标准日志输出
+    map-underscore-to-camel-case: true # 开启自动驼峰转换
+
+# 阿里配置
+al:
+  oss: #存储
+    endpoint: oss-cn-beijing.aliyuncs.com
+    accessKeyId: LTAI5tDut9Ke5Q1eGAcuirpX
+    accessKeySecret: 7XNeasP3svMRr5TZMpxwCyaFg424TI
+    bucketName: tanhua-gxm
+    url: https://tanhua-gxm.oss-cn-beijing.aliyuncs.com
+  vod: # 视频
+    regionId: cn-shanghai
+    accessKeyId: LTAI5tDut9Ke5Q1eGAcuirpX
+    accessKeySecret: 7XNeasP3svMRr5TZMpxwCyaFg424TI
