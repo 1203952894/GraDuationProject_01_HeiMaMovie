@@ -22,11 +22,20 @@ public class MovieController {
     @Autowired
     private MovieService movieService;
 
+    /**
+     * 查询所有
+     * @return Movie 集
+     */
     @RequestMapping("/findAll")
     public List<Movie> findAll(){
         return movieService.selectList(null);
     }
 
+    /**
+     * 保存 Movie
+     * @param movie movie
+     * @return count
+     */
     @RequestMapping("/save")
     public Integer insert(@RequestBody Movie movie){
 
@@ -39,18 +48,31 @@ public class MovieController {
 
     }
 
+    /**
+     * 根据 id 查询
+     * @param id id
+     * @return Movie
+     */
     @RequestMapping("/findById")
     public Movie findById(Integer id){
         return movieService.selectById(id);
     }
 
 
+    /**
+     * 根据 id 删除
+     * @param id id
+     * @return count
+     */
     @RequestMapping("/deleteById")
-    public int deleteById(Integer id){
+    public Integer deleteById(Integer id){
         return movieService.deleteById(id);
     }
 
-    //根据id批量删除
+    /**
+     * 根据 id 批量删除
+     * @param ids ids
+     */
     @RequestMapping("/deleteByIds")
     public void deleteByIds(Integer[] ids){
         movieService.deleteByIds(ids);

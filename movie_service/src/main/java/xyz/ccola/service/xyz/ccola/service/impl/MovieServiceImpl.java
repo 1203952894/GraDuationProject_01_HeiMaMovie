@@ -1,6 +1,7 @@
 package xyz.ccola.service.xyz.ccola.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -36,6 +37,13 @@ public class MovieServiceImpl implements MovieService {
         for (Integer id : ids) {
             movieMapper.deleteById(id);
         }
+    }
+
+    @Override
+    public List<Movie> findByCid(Integer cid) {
+        QueryWrapper<Movie> wrapper = new QueryWrapper<>();
+        wrapper.eq("cid", cid);
+        return movieMapper.selectList(wrapper);
     }
 
     @Override

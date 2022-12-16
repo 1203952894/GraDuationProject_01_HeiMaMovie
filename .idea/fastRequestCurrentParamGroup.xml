@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestCurrentParamGroup">
+    <option name="className" value="xyz.ccola.controller.UserController" />
+    <option name="method" value="login" />
+    <option name="module" value="movie_web_manager" />
+    <option name="originUrl" value="/admin/user/login" />
+    <option name="requestParamMap">
+      <map>
+        <entry key="password">
+          <value>
+            <Object />
+          </value>
+        </entry>
+        <entry key="username">
+          <value>
+            <Object />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="returnDocument" value="null" />
+    <option name="url" value="/admin/user/login" />
+  </component>
+</project>

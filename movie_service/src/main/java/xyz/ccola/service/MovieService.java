@@ -14,6 +14,16 @@ import java.util.List;
  */
 public interface MovieService extends BaseMapper<Movie> {
 
+    /**
+     * 根据 id 批量删除
+     * @param ids ids
+     */
     void deleteByIds(Integer[] ids);
 
+    /**
+     * 根据类型 cid 查询
+     * @param cid 分类 id
+     * @return Movie 集
+     */
+    List<Movie> findByCid(Integer cid);
 }
