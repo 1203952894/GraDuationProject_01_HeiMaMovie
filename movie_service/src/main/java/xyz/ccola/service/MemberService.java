@@ -10,4 +10,10 @@ import xyz.ccola.domain.Member;
  * @ Description: MemberService
  */
 public interface MemberService extends BaseMapper<Member> {
+    /**
+     * 根据 id 批量删除
+     * @param ids ids
+     * @return count
+     */
+    void deleteByIds(Integer[] ids);
 }

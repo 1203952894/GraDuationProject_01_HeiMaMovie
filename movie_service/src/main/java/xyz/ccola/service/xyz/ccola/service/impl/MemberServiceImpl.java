@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import xyz.ccola.domain.Member;
 import xyz.ccola.mapper.MemberMapper;
 import xyz.ccola.service.MemberService;
@@ -26,6 +27,14 @@ public class MemberServiceImpl implements MemberService {
     private MemberMapper memberMapper;
 
     @Override
+    @Transactional
+    public void deleteByIds(Integer[] ids) {
+        for (Integer id : ids) {
+            memberMapper.deleteById(id);
+        }
+    }
+
+    @Override
     public Member selectOne(Wrapper<Member> queryWrapper) {
         return MemberService.super.selectOne(queryWrapper);
     }
@@ -37,12 +46,12 @@ public class MemberServiceImpl implements MemberService {
 
     @Override
     public int insert(Member entity) {
-        return 0;
+        return memberMapper.insert(entity);
     }
 
     @Override
     public int deleteById(Serializable id) {
-        return 0;
+        return memberMapper.deleteById(id);
     }
 
     @Override
@@ -67,7 +76,7 @@ public class MemberServiceImpl implements MemberService {
 
     @Override
     public int updateById(Member entity) {
-        return 0;
+        return memberMapper.updateById(entity);
     }
 
     @Override
@@ -77,7 +86,7 @@ public class MemberServiceImpl implements MemberService {
 
     @Override
     public Member selectById(Serializable id) {
-        return null;
+        return memberMapper.selectById(id);
     }
 
     @Override
@@ -97,7 +106,7 @@ public class MemberServiceImpl implements MemberService {
 
     @Override
     public List<Member> selectList(Wrapper<Member> queryWrapper) {
-        return null;
+        return memberMapper.selectList(queryWrapper);
     }
 
     @Override
